@@ -1,0 +1,31 @@
+.on {
+    background-color: black;
+    background-image: url(images/light-bulbs.jpg);
+    color: white;
+}
+
+.off{
+    background-color: black;
+    background-image: none;
+    color: white;
+}
+
+body{
+    -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: background-image 1s ease;
+}
+
+p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+button{
+    font-family: 'Comfortaa', cursive;
+    float:left;
+    font-size: 1em;
+}
